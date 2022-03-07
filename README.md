@@ -1,3 +1,5 @@
+![logo](https://github.com/KingFelix/11ty-Easy-Starter/blob/c056ac41f3006202fa479fde8c3d239dcd2ca1e9/11ty-easy-start-cover.png)
+
 ## 11ty Easy Starter
 Start working immediately with 11ty.
 
