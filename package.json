@@ -1,20 +1,23 @@
 {
-  "name": "11ty",
-  "version": "1.0.0",
+  "name": "11ty-Easy-Starter",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:eleventy": "npx @11ty/eleventy",
+    "build:css": "sass src/sass:dist/css",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:css": "sass --watch src/sass:dist/css",
+    "serve": "concurrently \"npm:build:css\" \"npm:watch:*\" ",
+    "build": "concurrently \"npm run build:*\" "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "gulp": "^4.0.2",
-    "gulp-execa": "^2.0.0",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^4.14.1"
+    "@11ty/eleventy": "^1.0.0",
+    "concurrently": "^5.3.0",
+    "sass": "^1.32.0"
   },
   "dependencies": {}
 }
