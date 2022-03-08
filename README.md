@@ -4,11 +4,11 @@
 Start working immediately with 11ty.
 
 ### Install
-Clone or download this repo and into the root directory run:
+Clone or download this repo and run the following command:
 
   `npm i`
 
-This command install all the dependencies you need for start working.
+This command install all the dependencies you need to start working.
 
 ### Commands
 After the installation you can use the following commands:
