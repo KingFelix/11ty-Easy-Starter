@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js/");
 
   return {
+    htmlTemplateEngine: "liquid",
     dir: {
       input: "src",
       output: "dist"
